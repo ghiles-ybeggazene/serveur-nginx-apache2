@@ -1,0 +1,12 @@
+nginx  serveur HTTP
+
+adresse ip : ip a 
+
+mettre a jour :  sudo apt-get update sudo apt-get upgrade -y 
+
+installation :  sudo apt-get install nginx --yes
+
+installation du curl : sudo apt-get --yes install curl 
+
+
+
