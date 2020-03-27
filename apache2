@@ -1,0 +1,7 @@
+apache2 serveur HTTP
+
+install apache2  sudo apt-get install apache2
+
+version apache2    /usr/sbin/apache2 -v
+
+verification du serveur apache : sudo systemctl status apache2 
