@@ -20,3 +20,12 @@ sudo systemctl restart apache2
     ProxyPass / http://127.0.0.1:3000/
     ProxyPassReverse / http://127.0.0.1:3000/
 </VirtualHost>
+
+
+Pour activer le nom de domaine  on tape la commande  
+
+sudo a2ensite fichier.conf
+
+Taper la commande la commande pour ajouter le certificat SSL 
+
+  $certbot   
