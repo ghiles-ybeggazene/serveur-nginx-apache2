@@ -1,0 +1,23 @@
+Installation de pm2
+
+sudo npm install -g pm2
+
+Lancer une application dans pm2
+
+sudo pm2 start  index.js
+
+Arrêter une application dans pm2
+
+sudo pm2 stop <id|name|all>
+
+Lister les applications dans pm2
+
+sudo pm2 list
+
+Redémarrer une application qui s’exécute dans pm2 
+
+sudo pm2 restart <id|name|all>
+
+En tant que root, ajoutez PM2 aux scripts de démarrage, de sorte qu'il redémarre automatiquement si le serveur est redémarré :
+
+sudo pm2 startup systemd
