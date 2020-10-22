@@ -8,8 +8,8 @@ verification du serveur apache : sudo systemctl status apache2
 
 
 Le serveur web Apache fonctionnera comme un reverse proxy .
-sudo en2mod proxy
-sudo a2enmod proxy_http
+sudo a2enmod proxy
+sudo a2enmod proxy_httpp
 
 sudo systemctl restart apache2
 
