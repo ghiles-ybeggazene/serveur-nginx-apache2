@@ -5,3 +5,18 @@ install apache2  sudo apt-get install apache2
 version apache2    /usr/sbin/apache2 -v
 
 verification du serveur apache : sudo systemctl status apache2 
+
+
+Le serveur web Apache fonctionnera comme un reverse proxy .
+sudo en2mod proxy
+sudo a2enmod proxy_http
+
+sudo systemctl restart apache2
+
+
+<VirtualHost *:80>
+    ProxyPreserveHost On
+
+    ProxyPass / http://127.0.0.1:3000/
+    ProxyPassReverse / http://127.0.0.1:3000/
+</VirtualHost>
