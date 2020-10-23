@@ -4,7 +4,7 @@ sudo npm install -g pm2
 
 Lancer une application dans pm2
 
-sudo pm2 start  index.js
+sudo pm2 start server.js --name "mon-serveur"
 
 Arrêter une application dans pm2
 
