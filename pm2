@@ -10,6 +10,10 @@ Arrêter une application dans pm2
 
 sudo pm2 stop <id|name|all>
 
+Supprimer l'istance de la liste 
+
+sudo pm2 delete <id|name|app-name>
+
 Lister les applications dans pm2
 
 sudo pm2 list
