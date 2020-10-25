@@ -4,12 +4,16 @@ install apache2  sudo apt-get install apache2
 
 version apache2    /usr/sbin/apache2 -v
 
+pour trouver ou se trouve les fichiers apache2
+
+$ whereis apache2
+
 verification du serveur apache : sudo systemctl status apache2 
 
 
 Le serveur web Apache fonctionnera comme un reverse proxy .
-sudo a2enmod proxy
-sudo a2enmod proxy_httpp
+$ sudo a2enmod proxy
+$ sudo a2enmod proxy_httpp
 
 sudo systemctl restart apache2
 
