@@ -10,6 +10,9 @@ $ whereis apache2
 
 verification du serveur apache : sudo systemctl status apache2 
 
+pour voir le pid
+$ pidof apache2
+
 
 Le serveur web Apache fonctionnera comme un reverse proxy .
 $ sudo a2enmod proxy
