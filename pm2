@@ -14,6 +14,8 @@ Supprimer l'istance de la liste
 
 sudo pm2 delete <id|name|app-name>
 
+pm2 delete all
+
 Lister les applications dans pm2
 
 sudo pm2 list
