@@ -27,3 +27,11 @@ sudo pm2 restart <id|name|all>
 En tant que root, ajoutez PM2 aux scripts de démarrage, de sorte qu'il redémarre automatiquement si le serveur est redémarré :
 
 sudo pm2 startup systemd
+
+pour le redemmarge 
+
+sudo pm2 startup
+
+sudo systemctl start pm2-root.service
+
+systemctl status pm2-root.service
