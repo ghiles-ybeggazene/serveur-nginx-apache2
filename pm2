@@ -34,4 +34,7 @@ sudo pm2 startup
 
 sudo systemctl start pm2-root.service
 
+
+pour debian 8  update-rc.d pm2-root defaults
+
 systemctl status pm2-root.service
