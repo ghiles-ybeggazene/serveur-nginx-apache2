@@ -1,9 +1,11 @@
 
-pour voir le statut 
+#### voir le statut ####
 
 sudo fail2ban-client status
 
-debannir une adresse ip
+fail2ban-client status sshd
+
+##### debannir une adresse ip #####
 
 fail2ban-client set [nom du jail] unbanip [IP à bannir]
 
