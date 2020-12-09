@@ -1,7 +1,10 @@
 
 
-container :
 
+
+container :
+sudo pct list          pour lister les containers
+sudo pct fsck 823      pour diagnostiquer un container
 sudo pct shutdown 823  pour arreter 
 sudo pct stop 823      pour stop
 sudo pct start 823     pour lancer
