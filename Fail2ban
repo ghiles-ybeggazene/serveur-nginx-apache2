@@ -10,3 +10,6 @@ fail2ban-client status sshd
 fail2ban-client set [nom du jail] unbanip [IP à bannir]
 
 fail2ban-client set sshd unbanip 92.33.333.333
+
+
+https://vulgumtechus.com/fail2ban
