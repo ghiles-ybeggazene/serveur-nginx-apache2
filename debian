@@ -1,0 +1,18 @@
+127.0.0.1       localhost
+::1             localhost ip6-localhost ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters
+
+#--- les adresses internes
+175.16.2.12     int-sql-lab.ghil
+104.10.20.11     int-sql.ghil
+106.10.20.20     int-nosql-lab.ghil
+102.10.20.21     int-nosql.ghil
+104.10.20.50     int-js-lab.ghil
+104.10.20.51     int-js.ghil
+#---- vrack
+
+# --- BEGIN PVE ---
+127.234.198.187 nosql-centralsystem. nosql-centralsystem
+# --- END PVE ---
+
