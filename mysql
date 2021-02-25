@@ -1,0 +1,6 @@
+
+#pour acceder a la database
+mysql -u root -p 
+
+# importer une database a mysql
+source  /home/xxx.sql
