@@ -19,4 +19,4 @@ mysql -u root -p
 source  /home/xxx.sql
 
 # show users
-SELECT User  FROM mysql.user;
+SELECT User , Host  FROM mysql.user;
