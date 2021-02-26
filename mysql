@@ -8,8 +8,9 @@
  
  chmod 755 /var/www/html/adminer.php
 
-
-
+# mysql 8
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
 
 
 #pour acceder a la database
