@@ -1,4 +1,3 @@
-Shift + Option + A:
+Shift + Option + A:    /* multiline  comment */
 
-/* multiline    
-   comment */
+command + Shift + /:    //   comment 
