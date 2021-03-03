@@ -1,3 +1,5 @@
 Shift + Option + A:    /* multiline  comment */
 
 command + Shift + /:    //   comment 
+
+control +  `   :      terminal 
