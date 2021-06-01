@@ -2,10 +2,10 @@
 
 
 ### search node js
-- ps -ef|grep node
+- `ps -ef|grep node`
 
 ### usage RAM
-- ps -A --sort -rss -o comm,pmem,rss | head -n 20
+- `ps -A --sort -rss -o comm,pmem,rss | head -n 20`
 
 
 
