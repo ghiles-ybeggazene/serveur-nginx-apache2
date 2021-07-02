@@ -21,3 +21,7 @@ source  /home/xxx.sql
 
 # show users
 SELECT User , Host  FROM mysql.user;
+
+
+
+https://computingforgeeks.com/how-to-install-mysql-8-on-ubuntu/
