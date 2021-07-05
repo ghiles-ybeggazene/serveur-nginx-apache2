@@ -18,6 +18,9 @@ Le serveur web Apache fonctionnera comme un reverse proxy .
 $ sudo a2enmod proxy
 $ sudo a2enmod proxy_http
 
+a2enmod proxy proxy_http
+
+
 sudo systemctl restart apache2
 
 
