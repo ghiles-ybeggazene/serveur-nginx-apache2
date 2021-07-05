@@ -16,7 +16,7 @@ $ pidof apache2
 
 Le serveur web Apache fonctionnera comme un reverse proxy .
 $ sudo a2enmod proxy
-$ sudo a2enmod proxy_httpp
+$ sudo a2enmod proxy_http
 
 sudo systemctl restart apache2
 
