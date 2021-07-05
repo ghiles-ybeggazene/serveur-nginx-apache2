@@ -29,6 +29,13 @@ sudo systemctl restart apache2
 </VirtualHost>
 
 
+ a2enmod headers 
+
+   Header set Access-Control-Allow-Origin "*"
+
+
+
+
 Pour activer le nom de domaine  on tape la commande  
 
 sudo a2ensite fichier.conf
