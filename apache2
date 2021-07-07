@@ -37,6 +37,11 @@ sudo systemctl restart apache2
    Header set Access-Control-Allow-Origin "*"
 
 
+pour tester la syntaxe des configurations apache2
+
+sudo apache2ctl configtest
+
+
 
 
 Pour activer le nom de domaine  on tape la commande  
