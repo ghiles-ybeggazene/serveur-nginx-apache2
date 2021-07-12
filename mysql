@@ -25,3 +25,13 @@ SELECT User , Host  FROM mysql.user;
 
 
 https://computingforgeeks.com/how-to-install-mysql-8-on-ubuntu/
+
+
+# attribuer tout les droits sur une base de données à un utilisateur,
+GRANT ALL ON `database`.* TO 'user'@'localhost';
+
+# pour que les nouveaux droits attribués soient pris en compte
+FLUSH PRIVILEGES;
+
+
+https://www.emmanuelgautier.fr/blog/utilisateurs-et-privileges-sous-mysql
