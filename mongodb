@@ -1,0 +1,15 @@
+// connect mongodb
+
+mongo -u admin -p 5dVKcMprXLruYuCC
+
+
+// add user admin in db mongodb
+
+use admin
+db.createUser(  { user: "ghiles",    pwd: "5dVKcMprXLruYuCC",  roles: [ "root" ]    } )
+
+
+// create user in db  
+
+use mydatabase
+db.createUser({ user: "clemmobi_user", pwd: passwordPrompt(),   roles: [ {role: "readWrite", db: "clemmobi"}  ]})
