@@ -7,6 +7,9 @@
  
  sudo nano /etc/ssh/sshd_config
  
+ PasswordAuthentication yes
+service sshd reload
+ 
  
  
  https://www.quennec.fr/trucs-astuces/syst%C3%A8mes/gnulinux/commandes/ssh/copier-la-cl%C3%A9-dun-host-dans-le-fichier-authorizedkeys-dun-host-distant
