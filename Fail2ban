@@ -5,6 +5,8 @@ sudo fail2ban-client status
 
 fail2ban-client status sshd
 
+ iptables -L
+
 ##### debannir une adresse ip #####
 
 fail2ban-client set [nom du jail] unbanip [IP à bannir]
@@ -13,3 +15,16 @@ fail2ban-client set sshd unbanip 92.33.333.333
 
 
 https://vulgumtechus.com/fail2ban
+
+
+
+
+nano /etc/fail2ban/jail.conf
+
+
+# "bantime" is the number of seconds that a host is banned. 1 year
+bantime  = 31536000
+
+# A host is banned if it has generated "maxretry" during the last "findtime"
+# seconds.
+findtime  = 59m
