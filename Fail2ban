@@ -16,7 +16,9 @@ fail2ban-client set sshd unbanip 92.33.333.333
 
 https://vulgumtechus.com/fail2ban
 
+***********************************************************************************************************************
 
+tail -f /var/log/fail2ban.log
 
 
 nano /etc/fail2ban/jail.conf
