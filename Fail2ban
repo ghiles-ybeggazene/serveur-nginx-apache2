@@ -1,4 +1,6 @@
 
+ apt-get install fail2ban
+
 #### voir le statut ####
 
 sudo fail2ban-client status
