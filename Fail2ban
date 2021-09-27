@@ -33,3 +33,10 @@ findtime  = 59m
 maxretry = 1
 
 systemctl restart fail2ban
+
+# 10 requêtes en 2 min -> Ban pour 20 minutes
+[sshd]
+enabled = true
+maxretry = 10
+findtime = 120
+bantime = 1200
