@@ -1,0 +1,28 @@
+
+
+ufw status
+
+
+Afficher l'état actuel des règles:
+
+sudo ufw status verbose
+
+
+Numéro de règle:
+
+sudo ufw status numbered
+
+
+Réinitialiser UFW
+En cas d'erreur de vos règles vous pouvez réinitialiser le pare feu comme au début de l'installation en ouvrant un terminal puis vous écrivez:
+
+sudo ufw reset
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+apt-get install net-tools
+
+
+List listening TCP and UDP ports (+ user and process if you're root):
+
+netstat -lepunt
