@@ -51,3 +51,10 @@ sudo a2ensite fichier.conf
 Taper la commande la commande pour ajouter le certificat SSL 
 
   $certbot   
+  
+  
+  
+  pour un serveur file and folder 
+  
+  droit a l execution seulement mais pas a l ecriture
+  chmod 751 subscribe
