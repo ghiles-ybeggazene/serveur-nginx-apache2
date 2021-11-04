@@ -1,0 +1,43 @@
+Example 1: run laravel project from github
+
+Clone your project
+Go to the folder application using cd command on your cmd or terminal
+Run composer install on your cmd or terminal
+Copy .env.example file to .env on the root folder. You can type copy .env.example .env if using command prompt Windows or cp .env.example .env if using terminal, Ubuntu
+Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
+By default, the username is root and you can leave the password field empty. (This is for Xampp)
+By default, the username is root and password is also root. (This is for Lamp)
+Run php artisan key:generate
+Run php artisan migrate
+Run php artisan serve
+Go to localhost:8000
+
+
+
+Example 2: start someones laravel project
+1. composer update --no-scripts  or composer install
+ 2. php artisan key:generate 
+ 3. rename example.env to .env
+ 4. Change database credentials, set debug mode! Change app url
+ 4. php artisan migrate(make sure u have the database running in the server)
+ 5. php artisan config:clear
+ 6. you are good to go!
+ 
+ 
+ 
+ 
+ 
+ Example 3: how to run laravel project in xampp
+Install XAMPP
+Install composer(You can download composer from https://getcomposer.org/download/)
+Open cmd(make sure your path is the same as C:\xampp\htdocs>) then
+Install laravel GLOBALLY by the command: composer global require laravel/installer
+Now hit the command: laravel new your-projectname
+Your project is created now to run the project use command: php artisan serve
+The URL will be displayed on cmd, copy and use that URL in a browser you can see your laravel project
+                 
+/*If you have a ready project and you want to run with XAMPP*/
+if your laravel project is ready then put a laravel project folder at htdocs(unzip if it's .zip file)
+Create a database(you can see database name in .env file) then select the created database and import the .sql file(if .sql file is not provided then you have to create an entire database).
+Now your project is ready to run.
+Start the Apache and MySQL from XAMPP then hit the php artisan serve command in cmd(make sure your cmd is opened with the same path as your project).
