@@ -1,0 +1,4 @@
+
+To change a password for user ghiles
+
+sudo passwd ghiles 
