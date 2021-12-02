@@ -2,3 +2,9 @@
 To change a password for user ghiles
 
 sudo passwd ghiles 
+
+
+
+How to Get the Size of a Directory in Linux
+
+sudo du -shc /var/*
