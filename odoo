@@ -1,0 +1,4 @@
+
+
+##### fichier de configuration ########
+cat /etc/odoo15.conf
