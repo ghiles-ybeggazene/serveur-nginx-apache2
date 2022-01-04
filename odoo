@@ -2,3 +2,7 @@
 
 ##### fichier de configuration ########
 cat /etc/odoo15.conf
+
+
+###### status odoo ###########
+sudo systemctl status odoo11
