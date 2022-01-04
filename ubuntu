@@ -6,5 +6,8 @@ sudo passwd ghiles
 
 
 How to Get the Size of a Directory in Linux
-
 sudo du -shc /var/*
+
+
+taille des fichiers 
+du -h.   
