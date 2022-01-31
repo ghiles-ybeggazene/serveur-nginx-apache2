@@ -35,3 +35,9 @@ FLUSH PRIVILEGES;
 
 
 https://www.emmanuelgautier.fr/blog/utilisateurs-et-privileges-sous-mysql
+
+
+
+============================ MariaDB =================================
+
+SELECT host, user, password FROM mysql.user;
