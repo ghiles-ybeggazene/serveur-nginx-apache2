@@ -49,6 +49,10 @@ CREATE USER 'new_master_user'@'%' IDENTIFIED BY 'StrongPassword!';
 
 GRANT ALL ON *.* TO 'new_master_user'@'%' WITH GRANT OPTION; 
 
+change password
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('RXD3mHYsfpm39bu');
+
 FLUSH PRIVILEGES;
 
 DROP USER 'linuxconfig'@'localhost';
