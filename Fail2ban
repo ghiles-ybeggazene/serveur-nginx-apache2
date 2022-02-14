@@ -44,3 +44,18 @@ enabled = true
 maxretry = 10
 findtime = 120
 bantime = 1200
+
+
+******************************************************************************************************************
+
+Édition /etc/fail2ban/jail.conf
+
+nano /etc/fail2ban/jail.conf 
+Ajout de l’adresse Ip
+
+ignoreip = 127.0.0.1 XX.XX.XX.XX
+XX.XX.XX.XX étant l’adresse Ip à autoriser
+
+Redémarrage de fail2ban
+
+service fail2ban restart
