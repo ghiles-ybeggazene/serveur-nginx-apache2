@@ -58,3 +58,8 @@ Taper la commande la commande pour ajouter le certificat SSL
   
   droit a l execution seulement mais pas a la lecture
   chmod 751 subscribe
+
+
+lire log en instantané
+
+tail -f access.log
