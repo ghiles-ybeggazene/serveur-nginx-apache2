@@ -63,3 +63,23 @@ Taper la commande la commande pour ajouter le certificat SSL
 lire log en instantané
 
 tail -f access.log
+
+
+
+
+
+
+
+<VirtualHost *:80>
+
+        ServerName pro.paris.clem.mobi
+        ServerAdmin it@clem-e.com
+        Redirect / https://subscribe.clem.mobi/inform/783.html
+
+        ErrorDocument 404 /index.html
+        
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+
+</VirtualHost>
