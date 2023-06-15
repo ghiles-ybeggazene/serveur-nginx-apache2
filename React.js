@@ -20,3 +20,17 @@ We suggest that you begin by typing:
   npm start
 
  * to change favicon : https://favicon.io/favicon-generator/
+
+
+ ===== https://tailwindcss.com/docs/guides/create-react-app
+
+ npm install -D tailwindcss
+ npx tailwindcss init
+ 
+ 
+===== https://reactrouter.com/en/main
+
+
+npm install react-router react-router-dom
+
+ >>>>> rcf. >>>> pour create pages
