@@ -1,4 +1,4 @@
-npx create-react-app my-project
+npx create-react-app  <my-project>
 
 
   npm start
@@ -19,3 +19,4 @@ We suggest that you begin by typing:
   cd integration-project
   npm start
 
+ * to change favicon : https://favicon.io/favicon-generator/
