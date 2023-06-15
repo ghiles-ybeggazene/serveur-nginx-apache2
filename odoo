@@ -6,3 +6,6 @@ cat /etc/odoo15.conf
 
 ###### status odoo ###########
 sudo systemctl status odoo11
+
+
+sudo tail -f /var/log/odoo11/odoo.log
