@@ -1,3 +1,7 @@
 
 #install certbot
 apt install certbot python-certbot-apache -y
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04
