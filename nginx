@@ -25,4 +25,4 @@ nginx -t
 
 ***  Enfin recharger la configuration nginx à l’aide de la commande systemctl :
 
-sudo systemctl nginx reload
+sudo service nginx restart
