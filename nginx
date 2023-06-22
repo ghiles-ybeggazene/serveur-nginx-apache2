@@ -12,7 +12,9 @@ installation du curl : sudo apt-get --yes install curl
 
 ***  Ensuite créez le lien symbolique dans /etc/nginx/sites-enabled avec la commande ln :
 
+****************************************************************************************************************
 sudo ln -s /etc/nginx/sites-available/monsupersite /etc/nginx/sites-enabled/monsupersite
+****************************************************************************************************************
 
 ***  Eventuellement vérifiez que le fichier est correctement créé :
 
