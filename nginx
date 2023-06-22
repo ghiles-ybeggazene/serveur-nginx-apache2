@@ -26,3 +26,23 @@ nginx -t
 ***  Enfin recharger la configuration nginx à l’aide de la commande systemctl :
 
 sudo service nginx restart
+
+
+****************************************************************************************************************
+                        configaration web socket ngnix
+****************************************************************************************************************
+server {
+    listen 80;
+    server_name ocpp16.clem.mobi;
+    access_log /var/log/nginx/dev_localhost.log;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+****************************************************************************************************************
