@@ -1,7 +1,44 @@
-npx cap open ios
-npx cap open android
+# ── Build web ──
+ionic build                 # ou: ng build
+ionic build --prod          # build de production
 
+# ── Synchronisation ──
+npx cap sync                # copy + update (web assets + plugins natifs)
+npx cap sync ios            # uniquement iOS
+npx cap sync android        # uniquement Android
+npx cap copy                # copie seulement les assets web (plus rapide)
+npx cap update              # met à jour seulement les plugins natifs
 
+# ── Ajout des plateformes (une seule fois) ──
+npx cap add ios
+npx cap add android
 
-Synchroniser vers les projets natifs
-bashnpx cap sync
+# ── Ouvrir dans l'IDE natif ──
+npx cap open ios            # Xcode
+npx cap open android        # Android Studio
+
+# ── Lancer directement sur device / émulateur ──
+npx cap run ios
+npx cap run android
+npx cap run android --target <device-id>
+npx cap run android --list  # lister les devices dispo
+
+# ── Live reload sur device ──
+ionic cap run android -l --external
+ionic cap run ios -l --external
+
+# ── Diagnostic ──
+npx cap doctor              # vérifie la config et les versions
+npx cap ls                  # liste les plugins installés
+npx cap --version
+
+# ── Plugins ──
+npm install @capacitor/camera
+npx cap sync                # toujours après l'install d'un plugin
+
+# ── Assets (icônes / splash) ──
+npm install -D @capacitor/assets
+npx capacitor-assets generate
+
+# ── Mise à jour de Capacitor ──
+npx cap migrate             # migration vers une nouvelle version majeure
