@@ -42,3 +42,30 @@ npx capacitor-assets generate
 
 # ── Mise à jour de Capacitor ──
 npx cap migrate             # migration vers une nouvelle version majeure
+
+
+
+
+
+
+====================================================================================================================
+
+npx @capacitor/assets generate --iconBackgroundColor '#ffffff'   pour l icon 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
