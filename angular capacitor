@@ -54,6 +54,12 @@ npx @capacitor/assets generate --iconBackgroundColor '#ffffff'   pour l icon
 
 
 
+npm run brand -- bzh transforme le projet en app 456.BZH.
+npm run build:app lance ng build puis cap sync pour la marque en cours.
+npm run build:web repasse en mode multi-marques puis construit le site.
+
+
+
 
 
 
