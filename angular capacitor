@@ -72,6 +72,29 @@ npm run serve:web                           # mode normal (domaine ou ?brand=)
 
 
 
+npm run serve:brand -- clem && ng serve       # Clem'
+npm run serve:brand -- ame && ng serve        # Ardenne Métropole (AM-E)
+npm run serve:brand -- axeoauto && ng serve   # Guingamp Paimpol Agglomération (Axeo Auto)
+npm run serve:brand -- azalys && ng serve     # Azalys Agglopolys
+npm run serve:brand -- bzh && ng serve        # 456.BZH (Morbihan)
+npm run serve:brand -- cchvc && ng serve      # Haute Vallée de Chevreuse
+npm run serve:brand -- ccma && ng serve       # Mont des Avaloirs
+npm run serve:brand -- ccpl && ng serve       # Pays de Lumbres
+npm run serve:brand -- cctds && ng serve      # Terres de Saône (Auto Campagne)
+npm run serve:brand -- epernay && ng serve    # Epernay
+npm run serve:brand -- iledyeu && ng serve    # Île d'Yeu
+npm run serve:brand -- inli && ng serve       # IN'LI
+npm run serve:brand -- libelile && ng serve   # LIBél'île (Martinique)
+npm run serve:brand -- libeo && ng serve      # Libeo Autopartage (Brive)
+npm run serve:brand -- loueise && ng serve    # Loue Ise (Saint-Erblon)
+npm run serve:brand -- lulu && ng serve       # Lulu
+npm run serve:brand -- mam && ng serve        # MAM SNCF
+
+
+
+
+
+
 
 
 
