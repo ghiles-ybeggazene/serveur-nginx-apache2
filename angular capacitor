@@ -90,6 +90,17 @@ npm run serve:brand -- loueise && ng serve    # Loue Ise (Saint-Erblon)
 npm run serve:brand -- lulu && ng serve       # Lulu
 npm run serve:brand -- mam && ng serve        # MAM SNCF
 
+npm run serve:brand -- nexon && ng serve       # Pays de Nexon
+npm run serve:brand -- perivoit && ng serve    # Le Périvoit (Grand Périgueux)
+npm run serve:brand -- remi && ng serve        # REMI (Centre-Val de Loire)
+npm run serve:brand -- roulevert && ng serve   # RouleVert (Lantenne-Vertière)
+npm run serve:brand -- saclay && ng serve      # Paris-Saclay
+npm run serve:brand -- tactic && ng serve      # Tactic
+npm run serve:brand -- tadao && ng serve       # TADAO (Artois Mobilité)
+npm run serve:brand -- vnem && ng serve        # Vire Normandie
+npm run serve:brand -- mouvngo && ng serve     # MouvnGo
+npm run serve:brand -- myagicity && ng serve   # MyAgicity
+
 
 
 
