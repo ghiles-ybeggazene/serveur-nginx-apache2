@@ -60,6 +60,10 @@ npm run build:web repasse en mode multi-marques puis construit le site.
 
 
 
+npm run serve:brand -- clem && ng serve     # Clem
+npm run serve:brand -- bzh && ng serve      # 456.BZH
+npm run serve:web                           # mode normal (domaine ou ?brand=)
+
 
 
 
