@@ -65,7 +65,7 @@ npm run serve:brand -- bzh && ng serve      # 456.BZH
 npm run serve:web                           # mode normal (domaine ou ?brand=)
 
 
-
+npx ng build --configuration production 
 
 
 
