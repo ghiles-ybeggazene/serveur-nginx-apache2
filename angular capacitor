@@ -67,7 +67,8 @@ npm run serve:web                           # mode normal (domaine ou ?brand=)
 
 npx ng build --configuration production 
 
-
+Ouvre la palette de commandes : Ctrl + Shift + P (Cmd + Shift + P sur Mac).
+Lance « Angular: Restart Angular Language server ».
 
 
 
